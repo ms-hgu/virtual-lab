@@ -1,0 +1,10 @@
+---
+    bibliography: ./data/bibliography.bib
+    biblio-style: "apalike"
+    nocite: '@*'
+    csl: ./data/american-statistical-association_mod_order.csl
+---    
+
+# References
+
+<div id="refs"></div>
