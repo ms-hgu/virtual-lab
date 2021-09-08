@@ -11,12 +11,12 @@
 
 
 
-<title>My Website</title>
+<title>Virtual Plant Lab</title>
 
 <script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -30,8 +30,10 @@
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -57,6 +59,7 @@ if (window.hljs) {
 
 
 
+<link rel="stylesheet" href="style.css" type="text/css" />
 
 
 
@@ -245,27 +248,64 @@ $(document).ready(function () {
   <a href="1-Intro.html">Introduction</a>
 </li>
 <li>
+  <a href="Bibliography.html">Bibliography</a>
+</li>
+<li>
   <a href="about.html">About</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        
+        <li>
+  <a href="mailto:&lt;ms-beratung@hs-gm.de&gt;">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://github.com/dschmidt-hgu/virtual-lab">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
 </div><!--/.navbar -->
+<script type="text/javascript">
+$(function() {
+$('.navbar-right').before($('.logo'));
+})
+</script>
+
+<div class="logo pull-right">
+<img src="hsgm.svg" alt="logo" width="120" style="margin-left:  20px; margin-top: 5px; margin-bottom: 5px;">
+</div>
 
 <div id="header">
 
 
 
-<h1 class="title toc-ignore">My Website</h1>
+<h1 class="title toc-ignore">Virtual Plant Lab</h1>
 
 </div>
 
 
-<p>Hello, Website!</p>
+<div align="right">
+2021/09/08
+</div>
+<div id="recent-publication" class="section level4">
+<h4>Recent publication</h4>
+<p>Christopher Bahr, Dominik Schmidt, Matthias Friedel, Katrin Kahlen, Leaf removal effects on light absorption in virtual Riesling canopies (<em>Vitis vinifera</em> L.), <em>in silico Plants</em>, 2021;, diab027, <a href="https://doi.org/10.1093/insilicoplants/diab027" class="uri">https://doi.org/10.1093/insilicoplants/diab027</a></p>
+<p><img src="img/LRP_160.png" style="width:45.0%" /><img src="img/LRP_vineyard.png" style="width:45.0%" /></p>
+</div>
 
+<div class="footer"> 
+  
+  <hr> 
+  
+  <p><small> This content is licensed under the ... license.</small> </p>
+
+</div>
 
 
 

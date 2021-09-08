@@ -4,10 +4,19 @@ navbar:
   left:
     - text: "Introduction"
       href: 1-Intro.html
+    - text: "Bibliography"
+      href: Bibliography.html      
     - text: "About"
       href: about.html
+  right: 
+    - icon: fa-envelope fa-lg
+      href: mailto:<ms-beratung@hs-gm.de>  
+    - icon: fa-github fa-lg
+      href: https://github.com/dschmidt-hgu/virtual-lab
 output_dir: "."
 output:
   html_document:
-    theme: yeti
-    highlight: textmate
+    includes:
+      before_body: logo.html    
+      after_body: footer.html
+    css: style.css

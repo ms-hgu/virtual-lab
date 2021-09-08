@@ -1,0 +1,23 @@
+---
+title: "Introduction"
+---
+
+```{r _site.R, echo = FALSE, message = FALSE, warning = FALSE}
+source("_site.R")
+```
+
+
+```{r}
+
+iris <- as.data.table(iris)
+
+miris <- melt(iris, id.vars="Species")
+
+ggplot(miris,aes(x=Species,y=value,color=Species))+
+	geom_boxplot()+
+	facet_grid(.~variable)+
+	geom_rangeframe()+
+	theme(legend.position=c(0.85,0.85))
+
+
+```
